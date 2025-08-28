@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mega menu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        ul{
+            background-color: rgb(236, 226, 226);
+        }
+        .w-2{
+            margin: auto;
+            width: 1140px;
+        }
+        ul li{
+            list-style:none;
+            text-transform: capitalize;
+            padding: 10px;
+            display:inline-block;
+            padding-left:40px;
+            
+            }
+        ul li a{
+            text-decoration: none;
+            color: rgb(166, 203, 191);
+             padding: 10px;
+             display: block;
+        }
+         ul li:hover .w-3{
+            position: absolute;
+            background-color: whitesmoke;
+            color: rgb(7, 6, 6);
+            width: 650px;
+            box-shadow: 0px 5px 5px rgb(213, 221, 213);
+        }
+        h2{
+            color: rgb(213, 200, 184);
+            padding-left:30px;
+        }
+        .w-4 ul li{
+            display: block;
+           }
+        .w-4{
+            width:23%;
+            float: left;
+            display: none;
+            }
+        ul li:hover .w-4{
+         display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-1">
+        <div class="w-2">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">categories</a>
+                <div class="w-3">
+                    <div class="w-4">
+                        <ul>
+                            <h2>software</h2>
+                            <li>destop</li>
+                            <li>mobile</li>
+                            <li>tablet</li>
+                        </ul>
+                    </div>
+
+                     <div class="w-4">
+                        <ul>
+                            <h2>none-tech</h2>
+                            <li>afm</li>
+                            <li>stm</li>
+                            <li>none tubes</li>
+                            <li>none wires</li>
+                        </ul>
+                    </div>
+
+                     <div class="w-4">
+                        <ul>
+                            <h2>saas</h2>
+                            <li>on demand</li>
+                            <li>no software</li>
+                            <li>cloud computing</li>
+                        </ul>
+                    </div>
+
+                     <div class="w-4">
+                        <ul>
+                            <h2>server-side</h2>
+                            <li>php</li>
+                            <li>java</li>
+                            <li>python</li>
+                            <li>rudy</li>
+                            <li>asp.net</li>
+                            <li>perl</li>
+                            <li>lasso</li>
+                        </ul>
+                    </div>
+                </div>
+                </li>
+                <li><a href="">services</a></li>
+                <li><a href="">home</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+        ul{  
+            margin: 0;
+            padding: 0;
+        }
+        .w-1140{
+            margin: auto;
+            width: 1140px;
+        }
+         ul li a{
+          text-decoration:none;
+            color: blue;
+            background-color: brown;
+            display: block;
+            height: 30px;
+            width: 215px;
+            text-align: center;
+        }
+          ul li a:hover {
+            background-color: rgb(79, 198, 137);
+            color: black;
+        }
+        ul li{
+            float: left;
+            list-style: none;
+            padding-bottom: 15px;
+            }
+        .d-2{
+                width: calc(25% - 22px);
+                padding: 10px;
+                float: left;
+                background-color: beige;
+                border-right:2px dotted crimson;
+            }
+        .d-1{
+            position: absolute;
+            display: none;
+            width:70%;
+           }
+           .d-2 ul li{
+            width:100%;
+           }
+           ul li:hover .d-1{
+            display: block;
+           }
+           .d-2 ul li:hover{
+            background-color: black;
+            color: chartreuse;
+           }
+           .bor{
+            border: none;
+           }
+       
